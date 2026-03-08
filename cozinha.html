@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cozinha - Gestão de Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Painel da Cozinha</h1>
+        <div class="connection-status"><span id="status-dot" class="dot red"></span> <span id="status-text">...</span>
+        </div>
+    </header>
+
+    <main style="flex-direction: column;">
+        <nav><a href="index.html">Sair/Voltar para Caixa</a></nav>
+
+        <section>
+            <h2>📥 Pedidos Pendentes (Para Fazer)</h2>
+            <div id="pending-orders" class="orders-grid"></div>
+        </section>
+
+        <section class="finished-section">
+            <h2>✅ Pedidos Finalizados (Retirada)</h2>
+            <div id="finished-orders" class="orders-grid"></div>
+        </section>
+
+        <section style="margin-bottom: 20px; border: 2px solid #3498db;">
+            <h2>📦 Gestão de Estoque</h2>
+            <div id="stock-manager" style="display: flex; gap: 10px; padding: 10px;">
+            </div>
+        </section>
+    </main>
+
+    <script src="cozinha.js"></script>
+</body>
+
+</html>

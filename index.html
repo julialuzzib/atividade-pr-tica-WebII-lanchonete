@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Pedidos - Lanchonete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Painel de Pedidos em Tempo Real</h1>
+        <div class="connection-status">
+            <span id="status-dot" class="dot red"></span>
+            <span id="status-text">Desconectado</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Novo Pedido (Caixa)</h2>
+            <form id="orderForm">
+                <input type="text" id="clientName" placeholder="Nome do Cliente" required>
+
+                <label for="itemSelect">Escolha o Prato:</label>
+                <select id="itemSelect" required>
+                </select>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+
+        <section class="panel-section">
+            <h2>Painel da Cozinha (Preparo)</h2>
+            <div id="orders-container" class="orders-grid">
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
