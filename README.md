@@ -4,15 +4,15 @@ Atividade Prática - Comunicação Cliente/Servidor - Comércio: Lanchonete
 # 🍔 Lanchonete Real-Time (WebSocket)
 Este projeto simula o fluxo de pedidos de uma lanchonete em tempo real, conectando a frente de caixa à cozinha e ao controle de estoque de forma instantânea.
 
-# Como Executar o Projeto
+### Como Executar o Projeto
 Instalar Dependências:
 Abra o terminal na pasta do projeto e execute:
 
-# Bash
+#### Bash
 npm install
 Iniciar o Servidor:
 
-# Bash
+#### Bash
 node server.js
 Você verá a mensagem: Servidor rodando na porta http://localhost:3000
 
