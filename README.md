@@ -10,10 +10,11 @@ Abra o terminal na pasta do projeto e execute:
 
 #### Bash
 npm install
-Iniciar o Servidor:
 
 #### Bash
 node server.js
+
+Iniciar o Servidor:
 Você verá a mensagem: Servidor rodando na porta http://localhost:3000
 
 ## Acessar as Interfaces:
